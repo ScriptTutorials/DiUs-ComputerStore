@@ -2,15 +2,20 @@ The proposed DiUS computer store extension is Javascript based (Node.js)
 
 Pricing rules are in object array
 
-Interface
+------- Interface -------
 
   Checkout co = new Checkout(pricingRules);
+
   co.scan(isem1_sku);
+
   co.scan(isem2_sku);
+
   ...
+
   co.total();
 
-Usage
+
+------- Usage -------
 
 Firstly, you need to prepare the project:
 
@@ -36,7 +41,7 @@ npm start --case=3  dev
 result will be returned in co.total, and also echoed in console
 
 
-Unit tests
+------- Unit tests -------
 
   npm install -g jasmine
 
