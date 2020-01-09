@@ -8,5 +8,8 @@
     "dev": "node main"
   },
   "author": "AndreiP",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
 }
