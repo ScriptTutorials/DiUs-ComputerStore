@@ -12,6 +12,11 @@ Interface
 
 Usage
 
+Firstly, you need to prepare the project:
+
+npm install
+
+
 In order to run all three given custom scenarios, please run the following npm commands:
 
 
@@ -30,3 +35,11 @@ npm start --case=3  dev
 
 result will be returned in co.total, and also echoed in console
 
+
+Unit tests
+
+  npm install -g jasmine
+
+  jasmine init
+
+  jasmine spec/tests.js
