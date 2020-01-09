@@ -1,0 +1,12 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "DiUS shopping store test",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "node main"
+  },
+  "author": "AndreiP",
+  "license": "ISC"
+}
